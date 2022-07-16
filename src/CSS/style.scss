@@ -3,25 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    height: 100vh;
-    display: grid;
-    place-items: center;
+    
+.section{
     background-image: url("../Images/beatiful-sky-and-mountains-wallpaper.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0);
     height: 100vh;
+    display: grid;
+    place-items: center;
 }
-
-// .section{
-//     background-image: url("../Images/beatiful-sky-and-mountains-wallpaper.jpg");
-//     background-attachment: fixed;
-//     background-size: cover;
-//     background-color: rgba(0, 0, 0, 0);
-//     height: 100vh;
-// }
 
 .box{
     position: absolute;
@@ -146,7 +137,7 @@ a{
 // Media Query
 
 @media (max-width: 276px) {
-    body{
+    .section{
         background-position: cover;
     }
     .forbox{
@@ -164,7 +155,7 @@ a{
 }
 
 @media (max-width: 400px) {
-    body{
+    .section{
         background-position: cover;
     }
     .forbox{
@@ -182,7 +173,7 @@ a{
 }
 
 @media (max-width: 576px) {
-    body{
+    .section{
         background-position: cover;
     }
     .forbox{
