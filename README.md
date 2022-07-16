@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 Live application
-### `https://weather-app-by-khushijariwala.netlify.app/`
+https://weather-app-by-khushijariwala.netlify.app/
 
 ## Available Scripts
 
