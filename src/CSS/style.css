@@ -132,7 +132,18 @@ a {
   color: black;
 }
 
+@media (max-width: 358px) {
+  .section {
+    background-position: cover;
+  }
+  .forbox {
+    width: 100%;
+  }
+}
 @media (max-width: 576px) {
+  .section {
+    background-position: cover;
+  }
   .forbox {
     width: 100%;
   }
