@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Live application
+### `https://weather-app-by-khushijariwala.netlify.app/`
+
+## Available Scripts
+
 In the project directory, you can run:
 
 ### `npm i`
