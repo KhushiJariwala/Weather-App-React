@@ -63,48 +63,7 @@ const Weatherapp = () => {
                 </Card>
             </Row>
         </Container>
-
         
-
-
-        
-
-
-        {/* <div className="forbox">
-            <div className="box">
-                <div className="inputdata">
-                    <input type="search" value={search} className="inputfeild" placeholder="Type any City"
-                        onChange={ (event) => {
-                            setSearch(event.target.value)
-                        } } />
-                </div>
-
-                {
-                    !city ? (
-                        <p>No Data Found</p>
-                    ) : (
-                        <div className="info">
-                            <h2 className="location">
-                                <div className="locationicon"> 
-                                    <MdLocationOn />
-                                </div>
-                                <div className="search"> {search} </div>
-                            </h2>
-                            <h1 className="temp">
-                                {city.temp}°Cel
-                            </h1>
-                            <p className="max-min">
-                                Max : {city.temp_max}°Cel | Min : {city.temp_min}°Cel
-                            </p>
-                        </div>
-                    )
-                }
-
-                <div className="wave -one"></div>
-                <div className="wave -two"></div>
-                <div className="wave -three"></div>
-            </div>
-        </div> */}
     </section>
   )
 }
