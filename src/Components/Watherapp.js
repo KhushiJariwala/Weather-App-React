@@ -28,12 +28,12 @@ const Weatherapp = () => {
             <Row>
                 <Card style={{ width: '18rem' }}>
                     <Card.Body className="box">
-                    <div className="inputdata">
-                        <input type="search" value={search} className="inputfeild" placeholder="Type any City"
-                            onChange={ (event) => {
-                                setSearch(event.target.value)
-                            } } />
-                    </div>
+                        <div className="inputdata">
+                            <input type="search" value={search} className="inputfeild" placeholder="Type any City"
+                                onChange={ (event) => {
+                                    setSearch(event.target.value)
+                                } } />
+                        </div>
 
                         {
                             !city ? (
