@@ -134,12 +134,40 @@ a{
 
 // Media Query
 
-@media (max-width: 358px) {
+@media (max-width: 276px) {
     .section{
         background-position: cover;
     }
     .forbox{
         width: 100%;
+    }
+    .box{
+        width: 50px;
+        padding: 10px;
+    }
+    .wave{
+        width: 23rem;
+        height: 23rem;
+        margin-left: -11.5rem;
+        margin-top: -29rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .section{
+        background-position: cover;
+    }
+    .forbox{
+        width: 100%;
+    }
+    .box{
+        width: 320px;
+    }
+    .wave{
+        width: 23rem;
+        height: 23rem;
+        margin-left: -11.5rem;
+        margin-top: -29rem;
     }
 }
 
