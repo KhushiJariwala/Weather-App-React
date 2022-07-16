@@ -114,7 +114,7 @@ input{
 }
 
 .temp{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .locationicon{
@@ -136,7 +136,121 @@ a{
 }
 
 
+
+
 // Media Query
+
+@media (max-width: 750px){
+    .wave{
+        width: 28rem;
+        height: 28rem;
+        margin-left: -14rem;
+        margin-top: -31rem;
+    }
+}
+
+@media (max-width: 680px){
+    .wave{
+        width: 25rem;
+        height: 25rem;
+        margin-left: -13rem;
+        margin-top: -29.5rem;
+    }
+    .box{
+        width: 270px;
+    }
+}
+
+@media (max-width: 550px){
+    .wave{
+        width: 23rem;
+        height: 23rem;
+        margin-left: -11.5rem;
+        margin-top: -29rem;
+    }
+    .box{
+        width: 270px;
+    }
+}
+
+@media (max-width: 500px){
+    .wave{
+        width: 21rem;
+        height: 21rem;
+        margin-left: -10.5rem;
+        margin-top: -26rem;
+    }
+    .box{
+        width: 270px;
+        height: 370px;
+    }
+}
+
+@media (max-width: 450px){
+    .wave{
+        width: 19rem;
+        height: 19rem;
+        margin-left: -9.5rem;
+        margin-top: -25.5rem;
+    }
+    .box{
+        width: 300px;
+    }
+}
+
+@media (max-width: 376px){
+    .wave{
+        width: 17rem;
+        height: 17rem;
+        margin-left: -8.5rem;
+        margin-top: -22.5rem;
+    }
+    .box{
+        width: 250px;
+        height: 330px;
+    }
+    .locationicon{
+        font-size: 30px;
+    }
+    .search{
+        font-size: 23px;
+    }
+    .temp{
+        font-size: 20px;
+    }
+    .max-min{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 300px){
+    .wave{
+        width: 13rem;
+        height: 13rem;
+        margin-left: -6.5rem;
+        margin-top: -18rem;
+    }
+    .box{
+        width: 220px;
+        height: 270px;
+        margin-left: 35px;
+    }
+    .locationicon{
+        font-size: 23px;
+    }
+    .search{
+        font-size: 17px;
+    }
+    .temp{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .max-min{
+        font-size: 13px;
+    }
+}
+
+
 
 // @media (max-width: 276px) {
 //     .section{
