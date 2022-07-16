@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { MdLocationOn } from 'react-icons/md';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 const Weatherapp = () => {
 
@@ -18,8 +21,56 @@ const Weatherapp = () => {
     },[search] )
 
   return (
+    
     <section className="section">
-        <div className="forbox">
+
+        <Container>
+            <Row>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Body className="box">
+                    <div className="inputdata">
+                        <input type="search" value={search} className="inputfeild" placeholder="Type any City"
+                            onChange={ (event) => {
+                                setSearch(event.target.value)
+                            } } />
+                    </div>
+
+                        {
+                            !city ? (
+                                <p>No Data Found</p>
+                            ) : (
+                                <div className="info">
+                                    <h2 className="location">
+                                        <div className="locationicon"> 
+                                            <MdLocationOn />
+                                        </div>
+                                        <div className="search"> {search} </div>
+                                    </h2>
+                                    <h1 className="temp">
+                                        {city.temp}°Cel
+                                    </h1>
+                                    <p className="max-min">
+                                        Max : {city.temp_max}°Cel | Min : {city.temp_min}°Cel
+                                    </p>
+                                </div>
+                            )
+                        }
+
+                        <div className="wave -one"></div>
+                        <div className="wave -two"></div>
+                        <div className="wave -three"></div>
+                    </Card.Body>
+                </Card>
+            </Row>
+        </Container>
+
+        
+
+
+        
+
+
+        {/* <div className="forbox">
             <div className="box">
                 <div className="inputdata">
                     <input type="search" value={search} className="inputfeild" placeholder="Type any City"
@@ -53,7 +104,7 @@ const Weatherapp = () => {
                 <div className="wave -two"></div>
                 <div className="wave -three"></div>
             </div>
-        </div>
+        </div> */}
     </section>
   )
 }
